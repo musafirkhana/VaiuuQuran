@@ -1,31 +1,18 @@
-AndroidMaterialDesignToolbar
+Vaiuu Al-Quran
 ============================
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AndroidMaterialDesignToolbar-brightgreen.svg?style=flat)](https://android-arsenal.com/details/3/1125)
 
-Android Sample Project with Material Design and Toolbar.
-Project use Appcompat library for material design.
+Android Al-Quran Bangla Reading
 
 Project Contain
 ============================
-*Material Design Theme
+*Quran In Bangla
 
-*Toolbar
+*Moshjid Locator
 
-*NavigationDrawer
+*Qibla
 
-*new SlidingTabLayout
-
-*ViewPager
-
-*Material FloatingActionButton
-
-*Material CircularProgressBar
-
-*SwitchCompat from Appcompat
-
-*EditText from Appcompat
-
-*Checkbox from Appcompat
+*Namaz Time
 
 
-![alt tag](http://www.stdroid.com/img/output_5UTjCv.gif)
+
+![alt tag](http://i.imgur.com/b1v6bGv.png?1)
