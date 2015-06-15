@@ -1,0 +1,686 @@
+[
+  {
+    "FIELD1":"1",
+    "FIELD2":"The Opening",
+    "FIELD3":"Al Fatihah",
+    "FIELD4":"سورة الفاتحة"
+  },
+  {
+    "FIELD1":"2",
+    "FIELD2":"The Cow",
+    "FIELD3":"Al Baqarah",
+    "FIELD4":"سورة البقرة"
+  },
+  {
+    "FIELD1":"3",
+    "FIELD2":"The Family of 'Imran",
+    "FIELD3":"Al 'Imran",
+    "FIELD4":"سورة آل عمران"
+  },
+  {
+    "FIELD1":"4",
+    "FIELD2":"The Women",
+    "FIELD3":" An Nisa   ",
+    "FIELD4":"سورة النساء"
+  },
+  {
+    "FIELD1":"5",
+    "FIELD2":"The Table Spread with Food",
+    "FIELD3":" Al Ma  idah ",
+    "FIELD4":"سورة المائدة"
+  },
+  {
+    "FIELD1":"6",
+    "FIELD2":"The Cattles",
+    "FIELD3":"Al An'am",
+    "FIELD4":"سورة الأنعام"
+  },
+  {
+    "FIELD1":"7",
+    "FIELD2":"The Heights",
+    "FIELD3":"Al A'raf",
+    "FIELD4":"سورة الأعراف"
+  },
+  {
+    "FIELD1":"8",
+    "FIELD2":"The Spoils of War",
+    "FIELD3":"Al Anfal",
+    "FIELD4":"سورة الأنفال"
+  },
+  {
+    "FIELD1":"9",
+    "FIELD2":"The Repentance",
+    "FIELD3":"At Tawbah",
+    "FIELD4":"سورة التوبة"
+  },
+  {
+    "FIELD1":"10",
+    "FIELD2":"Jonah",
+    "FIELD3":"Yunus",
+    "FIELD4":"سورة يونس"
+  },
+  {
+    "FIELD1":"11",
+    "FIELD2":"Hud",
+    "FIELD3":"Hud",
+    "FIELD4":"سورة هود"
+  },
+  {
+    "FIELD1":"12",
+    "FIELD2":"Joseph",
+    "FIELD3":"Yusuf",
+    "FIELD4":"سورة يوسف"
+  },
+  {
+    "FIELD1":"13",
+    "FIELD2":"The Thunder",
+    "FIELD3":"Ar Ra'd",
+    "FIELD4":"سورة الرّعد"
+  },
+  {
+    "FIELD1":"14",
+    "FIELD2":"Abraham",
+    "FIELD3":"Ibrahim",
+    "FIELD4":"سورة إبراهيم"
+  },
+  {
+    "FIELD1":"15",
+    "FIELD2":"The Rocky Tract",
+    "FIELD3":"Al Hijr",
+    "FIELD4":"سورة الحجر"
+  },
+  {
+    "FIELD1":"16",
+    "FIELD2":"The Bees",
+    "FIELD3":"An Nahl",
+    "FIELD4":"سورة النحل"
+  },
+  {
+    "FIELD1":"17",
+    "FIELD2":"The Journey by Night",
+    "FIELD3":" Al Isra   ",
+    "FIELD4":"سورة الإسراء"
+  },
+  {
+    "FIELD1":"18",
+    "FIELD2":"The Cave",
+    "FIELD3":"Al Kahf",
+    "FIELD4":"سورة الكهف"
+  },
+  {
+    "FIELD1":"19",
+    "FIELD2":"Mary",
+    "FIELD3":"Maryam",
+    "FIELD4":"سورة مريم"
+  },
+  {
+    "FIELD1":"20",
+    "FIELD2":"Ta Ha",
+    "FIELD3":"Ta Ha",
+    "FIELD4":"سورة طه"
+  },
+  {
+    "FIELD1":"21",
+    "FIELD2":"The Prophets",
+    "FIELD3":" Al Anbiya   ",
+    "FIELD4":"سورة الأنبياء"
+  },
+  {
+    "FIELD1":"22",
+    "FIELD2":"The Pilgrimage",
+    "FIELD3":"Al Hajj",
+    "FIELD4":"سورة الحج"
+  },
+  {
+    "FIELD1":"23",
+    "FIELD2":"The Believers",
+    "FIELD3":" Al Mu  minun ",
+    "FIELD4":"سورة المؤمنون"
+  },
+  {
+    "FIELD1":"24",
+    "FIELD2":"The Light",
+    "FIELD3":"An Nur",
+    "FIELD4":"سورة النّور"
+  },
+  {
+    "FIELD1":"25",
+    "FIELD2":"The Criterion",
+    "FIELD3":"Al Furqan",
+    "FIELD4":"سورة الفرقان"
+  },
+  {
+    "FIELD1":"26",
+    "FIELD2":"The Poets",
+    "FIELD3":" Ash Shu'ara   ",
+    "FIELD4":"سورة الشعراء"
+  },
+  {
+    "FIELD1":"27",
+    "FIELD2":"The Ants",
+    "FIELD3":"An Naml",
+    "FIELD4":"سورة النمل"
+  },
+  {
+    "FIELD1":"28",
+    "FIELD2":"The Narration",
+    "FIELD3":"Al Qasas",
+    "FIELD4":"سورة القصص"
+  },
+  {
+    "FIELD1":"29",
+    "FIELD2":"The Spider",
+    "FIELD3":"Al 'Ankabut",
+    "FIELD4":"سورة العنكبوت"
+  },
+  {
+    "FIELD1":"30",
+    "FIELD2":"Rome",
+    "FIELD3":"Ar Rum",
+    "FIELD4":"سورة الروم"
+  },
+  {
+    "FIELD1":"31",
+    "FIELD2":"Luqman",
+    "FIELD3":"Luqman",
+    "FIELD4":"سورة لقمان"
+  },
+  {
+    "FIELD1":"32",
+    "FIELD2":"The Prostration",
+    "FIELD3":"As Sajdah",
+    "FIELD4":"سورة السجدة"
+  },
+  {
+    "FIELD1":"33",
+    "FIELD2":"The Confederates",
+    "FIELD3":"Al Ahzab",
+    "FIELD4":"سورة الأحزاب"
+  },
+  {
+    "FIELD1":"34",
+    "FIELD2":"Sheba",
+    "FIELD3":" Saba   ",
+    "FIELD4":"سورة سبإ"
+  },
+  {
+    "FIELD1":"35",
+    "FIELD2":"The Originator of Creation",
+    "FIELD3":"Fatir",
+    "FIELD4":"سورة فاطر"
+  },
+  {
+    "FIELD1":"36",
+    "FIELD2":"Ya Sin",
+    "FIELD3":"Ya Sin",
+    "FIELD4":"سورة يس"
+  },
+  {
+    "FIELD1":"37",
+    "FIELD2":"Those Ranged in Ranks",
+    "FIELD3":"As Saffat",
+    "FIELD4":"سورة الصّافّات"
+  },
+  {
+    "FIELD1":"38",
+    "FIELD2":"Sad",
+    "FIELD3":"Sad",
+    "FIELD4":"سورة ص"
+  },
+  {
+    "FIELD1":"39",
+    "FIELD2":"The Groups",
+    "FIELD3":"Az Zumar",
+    "FIELD4":"سورة الزمر"
+  },
+  {
+    "FIELD1":"40",
+    "FIELD2":"The Forgiver",
+    "FIELD3":"Ghafir",
+    "FIELD4":"سورة غافر"
+  },
+  {
+    "FIELD1":"41",
+    "FIELD2":"They are Explained in Detail",
+    "FIELD3":"Fussilat",
+    "FIELD4":"سورة فصّلت"
+  },
+  {
+    "FIELD1":"42",
+    "FIELD2":"The Consultations",
+    "FIELD3":"Ash-Shura",
+    "FIELD4":"سورة الشورى"
+  },
+  {
+    "FIELD1":"43",
+    "FIELD2":"The Gold Adornments",
+    "FIELD3":"Az Zukhruf",
+    "FIELD4":"سورة الزخرف"
+  },
+  {
+    "FIELD1":"44",
+    "FIELD2":"The Smoke",
+    "FIELD3":"Ad Dukhan",
+    "FIELD4":"سورة الدخان"
+  },
+  {
+    "FIELD1":"45",
+    "FIELD2":"The Kneeling",
+    "FIELD3":"Al Jathiyah",
+    "FIELD4":"سورة الجاثية"
+  },
+  {
+    "FIELD1":"46",
+    "FIELD2":"The Curved Sand-Hills",
+    "FIELD3":"Al Ahqaf",
+    "FIELD4":"سورة الأحقاف"
+  },
+  {
+    "FIELD1":"47",
+    "FIELD2":"Muhammad S",
+    "FIELD3":"Muhammad",
+    "FIELD4":"سورة محمّـد"
+  },
+  {
+    "FIELD1":"48",
+    "FIELD2":"The Victory",
+    "FIELD3":"Al Fath",
+    "FIELD4":"سورة الفتح"
+  },
+  {
+    "FIELD1":"49",
+    "FIELD2":"The Dwellings",
+    "FIELD3":"Al Hujurat",
+    "FIELD4":"سورة الحُـجُـرات"
+  },
+  {
+    "FIELD1":"50",
+    "FIELD2":"Qaf",
+    "FIELD3":"Qaf",
+    "FIELD4":"سورة ق"
+  },
+  {
+    "FIELD1":"51",
+    "FIELD2":"The Winds that Scatter",
+    "FIELD3":"Adh Dhariyat",
+    "FIELD4":"سورة الذاريات"
+  },
+  {
+    "FIELD1":"52",
+    "FIELD2":"The Mount",
+    "FIELD3":"At Tur",
+    "FIELD4":"سورة الـطور"
+  },
+  {
+    "FIELD1":"53",
+    "FIELD2":"The Star",
+    "FIELD3":"An Najm",
+    "FIELD4":"سورة الـنحـم"
+  },
+  {
+    "FIELD1":"54",
+    "FIELD2":"The Moon",
+    "FIELD3":"Al Qamar",
+    "FIELD4":"سورة الـقمـر"
+  },
+  {
+    "FIELD1":"55",
+    "FIELD2":"The Most Gracious",
+    "FIELD3":"Ar Rahman",
+    "FIELD4":"سورة الـرحـمـن"
+  },
+  {
+    "FIELD1":"56",
+    "FIELD2":"The Event",
+    "FIELD3":"Al Waqi'ah",
+    "FIELD4":"سورة الواقيـة"
+  },
+  {
+    "FIELD1":"57",
+    "FIELD2":"Iron",
+    "FIELD3":"Al Hadid",
+    "FIELD4":"سورة الحـديد"
+  },
+  {
+    "FIELD1":"58",
+    "FIELD2":"The Woman Who Disputes",
+    "FIELD3":"Al Mujadilah",
+    "FIELD4":"سورة الـمجادلـة"
+  },
+  {
+    "FIELD1":"59",
+    "FIELD2":"The Gathering",
+    "FIELD3":"Al Hashr",
+    "FIELD4":"سورة الـحـشـر"
+  },
+  {
+    "FIELD1":"60",
+    "FIELD2":"The Woman to be examined",
+    "FIELD3":"Al Mumtahanah",
+    "FIELD4":"سورة الـمـمـتـحنة"
+  },
+  {
+    "FIELD1":"61",
+    "FIELD2":"The Row or Rank",
+    "FIELD3":"As Saff",
+    "FIELD4":"سورة الـصّـف"
+  },
+  {
+    "FIELD1":"62",
+    "FIELD2":"Friday",
+    "FIELD3":"Al Jumu'ah",
+    "FIELD4":"سورة الـجـمـعـة"
+  },
+  {
+    "FIELD1":"63",
+    "FIELD2":"The Hypocrites",
+    "FIELD3":"Al Munafiqun",
+    "FIELD4":"سورة الـمنافقون"
+  },
+  {
+    "FIELD1":"64",
+    "FIELD2":"Mutual Loss and Gain",
+    "FIELD3":"At Taghabun",
+    "FIELD4":"سورة الـتغابن"
+  },
+  {
+    "FIELD1":"65",
+    "FIELD2":"The Divorce",
+    "FIELD3":"At Talaq",
+    "FIELD4":"سورة الـطلاق"
+  },
+  {
+    "FIELD1":"66",
+    "FIELD2":"The Prohibition",
+    "FIELD3":"At Tahrim",
+    "FIELD4":"سورة الـتحريم"
+  },
+  {
+    "FIELD1":"67",
+    "FIELD2":"Dominion",
+    "FIELD3":"Al Mulk",
+    "FIELD4":"سورة الـملك"
+  },
+  {
+    "FIELD1":"68",
+    "FIELD2":"The Pen",
+    "FIELD3":"Al Qalam",
+    "FIELD4":"سورة الـقـلـم"
+  },
+  {
+    "FIELD1":"69",
+    "FIELD2":"The Inevitable",
+    "FIELD3":"Al Haqqah",
+    "FIELD4":"سورة الـحاقّـة"
+  },
+  {
+    "FIELD1":"70",
+    "FIELD2":"The Ways of Ascent",
+    "FIELD3":"Al Ma'arij",
+    "FIELD4":"سورة الـمعارج"
+  },
+  {
+    "FIELD1":"71",
+    "FIELD2":"Noah",
+    "FIELD3":"Nuh",
+    "FIELD4":"سورة نوح"
+  },
+  {
+    "FIELD1":"72",
+    "FIELD2":"The Jinn",
+    "FIELD3":"Al Jinn",
+    "FIELD4":"سورة الجن"
+  },
+  {
+    "FIELD1":"73",
+    "FIELD2":"The One Wraped in Garments",
+    "FIELD3":"Al Muzzammil",
+    "FIELD4":"سورة الـمـزّمّـل"
+  },
+  {
+    "FIELD1":"74",
+    "FIELD2":"The One Enveloped",
+    "FIELD3":"Al Muddaththir",
+    "FIELD4":"سورة الـمّـدّثّـر"
+  },
+  {
+    "FIELD1":"75",
+    "FIELD2":"The Resurrection",
+    "FIELD3":"Al Qiyamah",
+    "FIELD4":"سورة الـقـيامـة"
+  },
+  {
+    "FIELD1":"76",
+    "FIELD2":"Man or Time",
+    "FIELD3":"Al Insan or Ad Dahar",
+    "FIELD4":"سورة الإنسان"
+  },
+  {
+    "FIELD1":"77",
+    "FIELD2":"Those sent forth",
+    "FIELD3":"Al Mursalat",
+    "FIELD4":"سورة الـمرسلات"
+  },
+  {
+    "FIELD1":"78",
+    "FIELD2":"The Great News",
+    "FIELD3":" An Naba   ",
+    "FIELD4":"سورة الـنبإ"
+  },
+  {
+    "FIELD1":"79",
+    "FIELD2":"Those Who Pull Out",
+    "FIELD3":"An Nazi'at",
+    "FIELD4":"سورة الـنازعات"
+  },
+  {
+    "FIELD1":"80",
+    "FIELD2":"He Frowned",
+    "FIELD3":"'Abasa",
+    "FIELD4":"سورة عبس"
+  },
+  {
+    "FIELD1":"81",
+    "FIELD2":"Wound Round and Lost its Light",
+    "FIELD3":"At-Takwir",
+    "FIELD4":"سورة التكوير"
+  },
+  {
+    "FIELD1":"82",
+    "FIELD2":"The Cleaving",
+    "FIELD3":"Al Infitar",
+    "FIELD4":"سورة الانفطار"
+  },
+  {
+    "FIELD1":"83",
+    "FIELD2":"Those Who Deal in Fraud",
+    "FIELD3":"Al Mutaffifin",
+    "FIELD4":"سورة المطـفـفين"
+  },
+  {
+    "FIELD1":"84",
+    "FIELD2":"The Splitting Asunder",
+    "FIELD3":"Al Inshiqaq",
+    "FIELD4":"سورة الانشقاق"
+  },
+  {
+    "FIELD1":"85",
+    "FIELD2":"The Big Stars",
+    "FIELD3":"Al Buruj",
+    "FIELD4":"سورة البروج"
+  },
+  {
+    "FIELD1":"86",
+    "FIELD2":"The Night Commer",
+    "FIELD3":"At Tariq",
+    "FIELD4":"سورة الـطارق"
+  },
+  {
+    "FIELD1":"87",
+    "FIELD2":"The Most High",
+    "FIELD3":"Al A'la",
+    "FIELD4":"سورة الأعـلى"
+  },
+  {
+    "FIELD1":"88",
+    "FIELD2":"The Overwhelming",
+    "FIELD3":"Al Ghashiyah",
+    "FIELD4":"سورة الغاشـيـة"
+  },
+  {
+    "FIELD1":"89",
+    "FIELD2":"The Break of Day or The Dawn",
+    "FIELD3":"Al Fajr",
+    "FIELD4":"سورة الفجر"
+  },
+  {
+    "FIELD1":"90",
+    "FIELD2":"The City",
+    "FIELD3":"Al Balad",
+    "FIELD4":"سورة الـبلد"
+  },
+  {
+    "FIELD1":"91",
+    "FIELD2":"The Sun",
+    "FIELD3":"Ash-Shams",
+    "FIELD4":"سورة الـشـمـس"
+  },
+  {
+    "FIELD1":"92",
+    "FIELD2":"The Night",
+    "FIELD3":"Al Layl",
+    "FIELD4":"سورة اللـيـل"
+  },
+  {
+    "FIELD1":"93",
+    "FIELD2":"The Forenoon",
+    "FIELD3":"Ad Duha",
+    "FIELD4":"سورة الضـحى"
+  },
+  {
+    "FIELD1":"94",
+    "FIELD2":"The Opening Forth",
+    "FIELD3":"Ash Sharh",
+    "FIELD4":"سورة الـشرح"
+  },
+  {
+    "FIELD1":"95",
+    "FIELD2":"The Fig",
+    "FIELD3":"At Tin",
+    "FIELD4":"سورة الـتين"
+  },
+  {
+    "FIELD1":"96",
+    "FIELD2":"The Clot",
+    "FIELD3":"Al 'Alaq",
+    "FIELD4":"سورة الـعلق"
+  },
+  {
+    "FIELD1":"97",
+    "FIELD2":"The Night of Decree",
+    "FIELD3":"Al Qadr",
+    "FIELD4":"سورة الـقدر"
+  },
+  {
+    "FIELD1":"98",
+    "FIELD2":"The Clear Evidence",
+    "FIELD3":"Al Bayyinah",
+    "FIELD4":"سورة الـبينة"
+  },
+  {
+    "FIELD1":"99",
+    "FIELD2":"The Earthquake",
+    "FIELD3":"Az-Zalzalah",
+    "FIELD4":"سورة الـزلزلة"
+  },
+  {
+    "FIELD1":"100",
+    "FIELD2":"Those That Run",
+    "FIELD3":"Al 'Adiyat",
+    "FIELD4":"سورة الـعاديات"
+  },
+  {
+    "FIELD1":"101",
+    "FIELD2":"The Striking Hour",
+    "FIELD3":"Al Qari'ah",
+    "FIELD4":"سورة الـقارعـة"
+  },
+  {
+    "FIELD1":"102",
+    "FIELD2":"The Piling Up",
+    "FIELD3":"At Takathur",
+    "FIELD4":"سورة الـتكاثر"
+  },
+  {
+    "FIELD1":"103",
+    "FIELD2":"The Time",
+    "FIELD3":"Al 'Asr",
+    "FIELD4":"سورة الـعصر"
+  },
+  {
+    "FIELD1":"104",
+    "FIELD2":"The Slanderer",
+    "FIELD3":"Al Humazah",
+    "FIELD4":"سورة الـهمزة"
+  },
+  {
+    "FIELD1":"105",
+    "FIELD2":"The Elephant",
+    "FIELD3":"Al Fil",
+    "FIELD4":"سورة الـفيل"
+  },
+  {
+    "FIELD1":"106",
+    "FIELD2":"Quraysh",
+    "FIELD3":"Quraysh",
+    "FIELD4":"سورة قريش"
+  },
+  {
+    "FIELD1":"107",
+    "FIELD2":"The Small Kindness",
+    "FIELD3":"Al Ma'un",
+    "FIELD4":"سورة المـاعون"
+  },
+  {
+    "FIELD1":"108",
+    "FIELD2":"The River in Paradise",
+    "FIELD3":"Al Kawthar",
+    "FIELD4":"سورة الـكوثر"
+  },
+  {
+    "FIELD1":"109",
+    "FIELD2":"The Disbelievers",
+    "FIELD3":"Al Kafirun",
+    "FIELD4":"سورة الـكافرون"
+  },
+  {
+    "FIELD1":"110",
+    "FIELD2":"The Help",
+    "FIELD3":"An Nasr",
+    "FIELD4":"سورة الـنصر"
+  },
+  {
+    "FIELD1":"111",
+    "FIELD2":"The Palm Fibre",
+    "FIELD3":"Al Masad",
+    "FIELD4":"سورة الـمسد"
+  },
+  {
+    "FIELD1":"112",
+    "FIELD2":"The Purity",
+    "FIELD3":"Al Ikhlas",
+    "FIELD4":"سورة الإخلاص"
+  },
+  {
+    "FIELD1":"113",
+    "FIELD2":"The Daybreak",
+    "FIELD3":"Al Falaq",
+    "FIELD4":"سورة الـفلق"
+  },
+  {
+    "FIELD1":"114",
+    "FIELD2":"Mankind",
+    "FIELD3":"An Nas",
+    "FIELD4":"سورة الـناس"
+  }
+]

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/sura_arabic_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:padding="5dp"
+        android:text="Hi"
+        android:textColor="@color/btn_text_bg" />
+
+    <TextView
+        android:id="@+id/sura_eng_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="5dp"
+        android:text="Hi"
+        android:textColor="@color/btn_text_bg" />
+
+</LinearLayout>
