@@ -128,6 +128,7 @@ public class MosjidLocatorActivity extends ActionBarActivity implements Location
             }
         } else {
             gpsTracker.showSettingsAlert();
+
         }
 
     }
