@@ -5,12 +5,15 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import com.vaiuu.alquran.fragment.AllahNameFragment;
+import com.vaiuu.alquran.fragment.KalimaFragment;
 import com.vaiuu.alquran.fragment.QiblaFragment;
 import com.vaiuu.alquran.fragment.QuranFragment;
+import com.vaiuu.alquran.fragment.SalahTimeFragment;
 
 public class ViewPagerAdapter extends FragmentPagerAdapter {
 
-    final int PAGE_COUNT =4;
+    final int PAGE_COUNT =5;
     private String titles[] ;
 
     public ViewPagerAdapter(FragmentManager fm, String[] titles2) {
@@ -27,10 +30,11 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
             case 1:
                 return QiblaFragment.newInstance(position);
             case 2:
-                return QuranFragment.newInstance(position);
+                return SalahTimeFragment.newInstance(position);
             case 3:
-                return QuranFragment.newInstance(position);
-
+                return AllahNameFragment.newInstance(position);
+            case 4:
+                return KalimaFragment.newInstance(position);
 
 
         }

@@ -1,6 +1,5 @@
 package com.vaiuu.alquran.main;
 
-import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.media.MediaPlayer;
@@ -8,7 +7,12 @@ import android.media.MediaPlayer.OnCompletionListener;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
@@ -43,7 +47,7 @@ import java.util.Random;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
-public class QuranPlayerActivity extends Activity implements OnClickListener,
+public class QuranPlayerActivity extends ActionBarActivity implements OnClickListener,
 		OnCompletionListener {
 
 	private Context context;
@@ -75,11 +79,19 @@ public class QuranPlayerActivity extends Activity implements OnClickListener,
 	public String StorezipFileLocation = Environment.getExternalStorageDirectory()+ "/DownloadedZip";
 	public String DirectoryName = Environment.getExternalStorageDirectory()+ Appconstant.DB_BASE_URL;
 
+	private Toolbar mToolbar;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_quran_player);
 		context = this;
+
+		mToolbar = (Toolbar) findViewById(R.id.toolbar_musjid);
+		setSupportActionBar(mToolbar);
+		final ActionBar ab = getSupportActionBar();
+		ab.setDisplayHomeAsUpEnabled(true);
+		ab.setTitle("");
 		downloadUrl="http://www.vaiuugroupbd.org/alquran/reading/"
 				+ ""+Appconstant.suraPosition
 				+ ".zip";
@@ -626,5 +638,20 @@ public class QuranPlayerActivity extends Activity implements OnClickListener,
 			}
 
 		}).execute();
+	}
+
+	/* Called whenever we call invalidateOptionsMenu() */
+	@Override
+	public boolean onPrepareOptionsMenu(Menu menu) {
+		return super.onPrepareOptionsMenu(menu);
+	}
+
+	public boolean onOptionsItemSelected(MenuItem item) {
+		int id = item.getItemId();
+		if (id == android.R.id.home) {
+			QuranPlayerActivity.this.finish();
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
 	}
 }

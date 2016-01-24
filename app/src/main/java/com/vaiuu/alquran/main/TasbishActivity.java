@@ -1,11 +1,15 @@
 package com.vaiuu.alquran.main;
 
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Vibrator;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -14,7 +18,7 @@ import android.widget.Toast;
 
 import com.vaiuu.alquran.util.SharedPreferencesHelper;
 
-public class TasbishActivity extends Activity {
+public class TasbishActivity extends ActionBarActivity {
     private android.widget.Button reset_button, set_timer;
     private ImageView counter_li;
     private TextView count_text;
@@ -24,12 +28,17 @@ public class TasbishActivity extends Activity {
     private AlertDialog.Builder builder;
     private SharedPreferencesHelper sharedPreferencesHelper=new SharedPreferencesHelper();
     private Context context;
-
+    private Toolbar mToolbar;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tasbih);
         context=this;
+        mToolbar = (Toolbar) findViewById(R.id.toolbar_tashbiah);
+        setSupportActionBar(mToolbar);
+        final ActionBar ab = getSupportActionBar();
+        ab.setDisplayHomeAsUpEnabled(true);
+        ab.setTitle(context.getResources().getString(R.string.text_tasbiah));
         initUI();
     }
 
@@ -80,7 +89,9 @@ public class TasbishActivity extends Activity {
 
 
         public void onClick(View v) {
-            sharedPreferencesHelper.setCount(context,count_text.getText().toString());
+            Toast.makeText(TasbishActivity.this, "Saved", Toast.LENGTH_LONG).show();
+            sharedPreferencesHelper.setCount(context, count_text.getText().toString());
+            TasbishActivity.this.finish();
         }
     };
     //method  reset
@@ -88,6 +99,7 @@ public class TasbishActivity extends Activity {
 
 
         public void onClick(View v) {
+            sharedPreferencesHelper.setCount(context,"0");
             count_text.setText(String.valueOf(angka = 0));
             counter_li.setOnClickListener(cListener);
         }
@@ -107,7 +119,19 @@ public class TasbishActivity extends Activity {
     }
 
 
-    public void exit() {
-        this.finish();
+    /* Called whenever we call invalidateOptionsMenu() */
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        return super.onPrepareOptionsMenu(menu);
     }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        if (id == android.R.id.home) {
+            TasbishActivity.this.finish();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
 }

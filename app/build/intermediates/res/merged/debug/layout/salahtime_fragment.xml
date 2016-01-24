@@ -1,0 +1,280 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vaiuu.alquran.MapsActivity">
+
+    <RelativeLayout
+        android:id="@+id/topbar"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_weight="2"
+        android:background="@color/app_background"
+        android:padding="5dip">
+
+        <ImageView
+            android:id="@+id/leftArrowImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/left_arrow" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dateTextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="28"
+                android:textColor="#fff"
+                android:textSize="70sp" />
+
+            <TextView android:id="@+id/month_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="May 28"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/rightArrowImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/right_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvCityName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="সালাতের সময় সূচী "
+                android:textColor="#000"
+                android:textSize="20sp"
+                 />
+
+
+            <LinearLayout
+                android:id="@+id/detailslayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@color/google_white"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dip">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ফজর"
+                        android:textColor="@color/fontBlack"
+                        android:textSize="18sp"
+                         />
+
+
+                    <TextView
+                        android:id="@+id/tvFajrNamgeTime"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="5:20 AM"
+                        android:textSize="18sp"
+                        android:textColor="@color/fontBlack"
+                         />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:layout_margin="5dip"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="সূর্যোদয়"
+                        android:textSize="18sp"
+                        android:textColor="@color/fontBlack"
+                       />
+
+
+                    <TextView
+                        android:id="@+id/tvSuriseNamgeTime"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="5:20 AM"
+                        android:textSize="18sp"
+                        android:textColor="@color/fontBlack"
+                         />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dip">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="যোহর"
+                        android:textSize="18sp"
+                        android:textColor="@color/fontBlack"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/tvDuhurNamgeTime"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:textSize="18sp"
+                        android:text="5:20 AM"
+                        android:textColor="@color/fontBlack"
+                         />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dip">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="আছর"
+                        android:textSize="18sp"
+                        android:textColor="@color/fontBlack"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/tvAsrNamgeTime"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="5:20 AM"
+                        android:textSize="18sp"
+                        android:textColor="@color/fontBlack"
+                      />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dip">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="মাগরিব"
+                        android:textSize="18sp"
+                        android:textColor="@color/fontBlack"
+                         />
+
+
+                    <TextView
+                        android:id="@+id/tvMaghribNamgeTime"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="5:20 AM"
+                        android:textSize="18sp"
+                        android:textColor="@color/fontBlack"
+                         />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:layout_margin="5dip"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="এশা"
+                        android:textSize="18sp"
+                        android:textColor="@color/fontBlack"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/tvIshaNamgeTime"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="5:20 AM"
+                        android:textSize="18sp"
+                        android:textColor="@color/fontBlack"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/F:/Works/RepoProject/al-quran/AlQuran/app/src/main/res/layout/salahtime_fragment.xml -->

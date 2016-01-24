@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center|left"
+    >
+
+
+
+    <ImageView
+        android:id="@+id/left_image"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+
+
+      />
+
+    <TextView
+        android:id="@+id/left_text"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Hi"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/google_white" />
+
+</LinearLayout><!-- From: file:/F:/Works/RepoProject/al-quran/AlQuran/app/src/main/res/layout/row_drawer.xml -->

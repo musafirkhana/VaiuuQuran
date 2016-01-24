@@ -1,36 +1,28 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/app_background">
+    >
 
 
     <RelativeLayout
         android:id="@+id/top_linear"
         android:layout_width="fill_parent"
         android:layout_height="60dp"
-        android:background="#04232B"
         android:layout_alignParentTop="true"
         android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_tashbiah"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:text="তসবিহ"/>
+            android:minHeight="?attr/actionBarSize"
+            local:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            android:background="?attr/colorPrimary">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_centerVertical="true"
-            android:background="@drawable/back"
-            android:layout_marginLeft="15dp"
-            android:onClick="Back"
-            android:clickable="true"
-            android:layout_height="wrap_content" />
+        </android.support.v7.widget.Toolbar>
 
     </RelativeLayout>
 

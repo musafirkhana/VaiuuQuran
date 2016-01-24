@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-62b9d1d32cdc6d1ecc52aa48bf46534bbb26ae0f.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-39911b36aa83e2ea2e1fca6825de4d4f66c90edb.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-d4deffbaa809f0eb654ba505e1d568529fc25ad4.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-86357bbbd36ca329077dafe8a7f7deae777125d5.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-02ae666fb85d018afca4830d275df0aefe34e5bc.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-9b156ca7342fa626e0886178416486edc06e5653.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-cd28e7b222d8aad90ba85dd5df120560a316ea48.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-cebfb4b838f84d26b0b6fcbde89c2e890cdeb158.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-666fe19abeb3ce5f5e840c66403ad5a076ec1f63.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-e73c5c8eb3952e457906ed77c592c18536671852.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-28c93e6b3eae60f419a935aa5169ece570c85dd8.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-58360f18a548800b38f15d417557875cf65a29ca.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-8d3006823a32ee6860652f49f574686faa5ec891.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-50148edf58d5d5386e5a58e47f9a17a773d05bea.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-cc7cc97b3da5851ff48270e96fe8ae416d8a2ab2.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-7838badb27b4f6e11cc6f76c41c02b4d1de1926c.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-ae946539a5b7477e4cbc5f7f3b1b0a1bfef3f5a7.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-b6098dbab381430777be65dc3808362c71a8c828.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-0d8e7c574c368154a7c279552fb4c3230a69c0f0.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-91610fc25261ea37f2e651a8b3e02acc0b60dd13.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-d7ffa7ca55d4d3fa1c701ae2f6010df5bec4e5a8.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-e9465425d7266c7833bdd82f8e20c4dbe651809e.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-faa9d233589123e19c1a98e8cf4ffcdca867170a.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-1ee3ac7b97678407272cd77e9268b2f7bde048f2.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-50a597ac01305d2d1135fba4b1630e4357a33335.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\internal_impl-22.0.0-b89928dc99283a8428e9c037d0bcee04f3830155.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-378fd38d3f86cee5676766b3f4a51c7f91b7e064.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-59890e95c72a1e81065d087674393cc7e711fee7.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-f08f3c189a44bff00bc3031d7df16c2f59665239.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-88f475574cd48111e74f1ef2d602337f597b65a0.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-3b74f2bf60c2fab9f0b1dcc5d7dc18fa0dc47232.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-db6011b600dd3b86f42554d68d3eb901a82a616d.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-82186b79cfe058dac5df2f6bf58fc0176bfd96aa.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-7f64a0ce9f76f202319fc5713a4627b54808e158.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-cf56759fc5af067fbf57fe02ec120b8cf4992870.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-d00500bafb28d1caef7bef39dcfd14ac369c29a0.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-6a8b82bad9a6699c7648565a0adc0f48bc483f41.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\internal_impl-22.2.0-02e933296a0d6e823d3221c5e98417c4709927cb.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-1ae2223dae30002ebc43bba9946054c4fed986de.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-cf8494f8b4604d086f286d2ac8c3b27ac9197559.jar" />
+    </item>
+    <item
+        jar="C:\Users\Aryan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-81b552f0c6420e671079cd3c56973c82d8ec94f6.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-5cdad5e1bed0c1d137fe763f5ceb4a77b9f12a06.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-15ea86d7045ccf4e08299f614400ec44b631c031.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-5d52b6df049b9f03f734ba9dd0811c377f3cf40c.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-67145750d5451d1a8e46f534bf9f08b6e5aaf05c.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-a06a4b3441d59f38f80c11042f26078c7aef708d.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-d45e3a2864f417d291346b51206256f14f76328d.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-5d6b88e8171b4f658b38337cd48d825370abb8d5.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-364b4db5b82bb812788639d2daa999fa61460175.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-3a0e1a49ca1209ba0471c85d209b1f3c18acbcb4.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-9451cefbca733730c431eea8e323884810654820.jar" />
+    </item>
+    <item
+        jar="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="F:\Works\RepoProject\al-quran\AlQuran\app\build\intermediates\pre-dexed\debug\classes-53e7092491a1f5b941a4bb79844a88d3c9bd6c68.jar" />
+    </item>
+    <item
+        jar="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="F:\Works\AndroidStudioWorkspace\AlQuran\AlQuran\AlQuran\app\build\intermediates\pre-dexed\release\classes-baeda311810fe24b88377a708976746ee445879e.jar" />
+    </item>
+
+</items>

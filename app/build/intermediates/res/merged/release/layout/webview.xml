@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Player Header -->
+    <RelativeLayout
+        android:id="@+id/top_linear"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_webview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            local:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+        </android.support.v7.widget.Toolbar>
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_alignParentTop="true"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:freezesText="true"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <!-- Song Thumbnail Image -->
+
+    <LinearLayout
+        android:id="@+id/centerlinear"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_li"
+        android:layout_below="@+id/top_linear"
+        android:gravity="center">
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:src="@drawable/ic_launcher" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_li"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView_webview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+
+        </com.google.android.gms.ads.AdView>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout><!-- From: file:/F:/Works/AndroidStudioWorkspace/AlQuran/AlQuran/AlQuran/app/src/main/res/layout/webview.xml -->

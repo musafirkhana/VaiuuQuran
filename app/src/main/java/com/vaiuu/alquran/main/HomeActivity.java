@@ -22,9 +22,13 @@ import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
+import com.vaiuu.alquran.adapter.LeftDrawerAdapter;
 import com.vaiuu.alquran.databse.AssetDatabaseOpenHelper;
 import com.vaiuu.alquran.databse.DataBaseHelper;
 import com.vaiuu.alquran.util.Appconstant;
@@ -38,11 +42,11 @@ public class HomeActivity extends ActionBarActivity {
 
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle drawerToggle;
+    InterstitialAd mInterstitialAd;
 
     private ListView mDrawerList;
     ViewPager pager;
-    private String titles[] = new String[]{"আল-কোরান", "কিবলা", "মসজিদ অবস্থান", "নামাজের সময়"
-    };
+    private String titles[] = new String[]{"আল-কোরান", "কিবলা", "নামাজের সময়","আল্লাহর নাম","কালিমা"};
     private Toolbar toolbar;
 
     SlidingTabLayout slidingTabLayout;
@@ -51,12 +55,27 @@ public class HomeActivity extends ActionBarActivity {
     private File sdCard = Environment.getExternalStorageDirectory();
     private File QuranDbFolder = new File(sdCard.getAbsolutePath()
             + Appconstant.DB_BASE_URL);
+    private LeftDrawerAdapter leftDrawerAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sample);
         context = this;
+        bannerADD();
 
+
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-2958576242618647/6786470419");
+
+        mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdClosed() {
+                requestNewInterstitial();
+
+            }
+        });
+
+        requestNewInterstitial();
         if (!QuranDbFolder.exists()) {
             QuranDbFolder.mkdirs();
         }
@@ -85,44 +104,81 @@ public class HomeActivity extends ActionBarActivity {
         drawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, toolbar, R.string.app_name, R.string.app_name);
         mDrawerLayout.setDrawerListener(drawerToggle);
         String[] values = new String[]{
-                "আজান", "তসবি", "রোজার সময়", "মসজিদ অবস্থান", "নামাজের সময়", "মসজিদ অবস্থান", "নামাজের সময়"
+                "আজান", "তসবি", "মসজিদ অবস্থান", "নামাজের জন্যে সূরা", "ছালাতের সংক্ষিপ্ত নিয়ম", "যরূরী দো‘আ সমূহ"
         };
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-                android.R.layout.simple_list_item_1, android.R.id.text1, values);
-        mDrawerList.setAdapter(adapter);
+        /*ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1, android.R.id.text1, values);*/
+        leftDrawerAdapter=new LeftDrawerAdapter(this,values);
+        mDrawerList.setAdapter(leftDrawerAdapter);
         mDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
                 switch (position) {
                     case 0:
-                        mDrawerList.setBackgroundColor(getResources().getColor(R.color.blue));
-                        toolbar.setBackgroundColor(getResources().getColor(R.color.blue));
-                        slidingTabLayout.setBackgroundColor(getResources().getColor(R.color.blue));
-                        mDrawerLayout.closeDrawer(Gravity.START);
+                        Intent intent1=new Intent(context,WebviewActivity.class);
+                        intent1.putExtra("DETAIL", getResources().getString(R.string.azan_text));
+                        intent1.putExtra("HEADER", getResources().getString(R.string.azan));
+                        startActivity(intent1);
+                        mDrawerLayout.closeDrawer(Gravity.LEFT);
                         break;
                     case 1:
+                        if (mInterstitialAd.isLoaded()) {
+                            mInterstitialAd.show();
+                        }
                         Intent intent = new Intent(HomeActivity.this, TasbishActivity.class);
                         startActivity(intent);
-                        mDrawerLayout.closeDrawer(Gravity.START);
+                        mDrawerLayout.closeDrawer(Gravity.LEFT);
 
                         break;
                     case 2:
-
-                        mDrawerLayout.closeDrawer(Gravity.START);
+                        Intent mLocator = new Intent(HomeActivity.this, MosjidLocatorActivity.class);
+                        startActivity(mLocator);
+                        mDrawerLayout.closeDrawer(Gravity.LEFT);
 
                         break;
                     case 3:
-
-                        mDrawerLayout.closeDrawer(Gravity.START);
+                        if (mInterstitialAd.isLoaded()) {
+                            mInterstitialAd.show();
+                        }
+                        Intent sura = new Intent(HomeActivity.this, NamazerSuraActivity.class);
+                        startActivity(sura);
+                        mDrawerLayout.closeDrawer(Gravity.LEFT);
 
                         break;
+                    case 4:
+                        Intent intent5=new Intent(context,WebviewActivity.class);
+                        intent5.putExtra("DETAIL", getResources().getString(R.string.salah_detail));
+                        intent5.putExtra("HEADER", getResources().getString(R.string.salah));
+                        startActivity(intent5);
+                        mDrawerLayout.closeDrawer(Gravity.LEFT);
+                        break;
+                    case 5:
+                        Intent intent6=new Intent(context,WebviewActivity.class);
+                        intent6.putExtra("DETAIL", getResources().getString(R.string.dua_detail));
+                        intent6.putExtra("HEADER", getResources().getString(R.string.dua));
+                        startActivity(intent6);
+                        mDrawerLayout.closeDrawer(Gravity.LEFT);
+                        break;
+
                 }
 
             }
         });
     }
 
+    private void requestNewInterstitial() {
+        AdRequest adRequest = new AdRequest.Builder()
+                .addTestDevice("SEE_YOUR_LOGCAT_TO_GET_YOUR_DEVICE_ID")
+                .build();
+
+        mInterstitialAd.loadAd(adRequest);
+    }
+    private void bannerADD(){
+        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
@@ -132,7 +188,7 @@ public class HomeActivity extends ActionBarActivity {
 
         switch (item.getItemId()) {
             case android.R.id.home:
-                mDrawerLayout.openDrawer(Gravity.START);
+                mDrawerLayout.openDrawer(Gravity.LEFT);
                 return true;
         }
 

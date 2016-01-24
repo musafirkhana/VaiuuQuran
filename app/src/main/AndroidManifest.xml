@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.vaiuu.alquran.main">
-
+    package="com.vaiuu.alquran.main" >
+    <permission
+        android:name="com.vaiuu.alquran.main.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -20,53 +22,77 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <!-- Creates a custom permission so only this app can receive its messages. -->
-    <!--<permission
+    <!--
+        <permission
         android:name="com.islamtoday.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
--->
-    <!--<uses-permission android:name="com.islamtoday.permission.C2D_MESSAGE" />-->
+    -->
+    <!-- <uses-permission android:name="com.islamtoday.permission.C2D_MESSAGE" /> -->
     <!-- This app has permission to register and receive data message. -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="Happy balloon"
-        android:theme="@style/AppTheme">
+        android:label="ISLAM PEACE"
+        android:theme="@style/AppTheme" >
         <activity
             android:name=".IntroActivity"
             android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|layoutDirection"
             android:launchMode="singleTop"
-            android:screenOrientation="portrait">
-
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".HomeActivity"
             android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|layoutDirection"
             android:label="আল-কোরান"
             android:launchMode="singleTop"
-            android:screenOrientation="portrait">
-
+            android:screenOrientation="portrait" >
         </activity>
-
-
         <activity
             android:name=".TasbishActivity"
             android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|layoutDirection"
             android:launchMode="singleTop"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".QuranPlayerActivity"
             android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|layoutDirection"
             android:launchMode="singleTop"
-            android:screenOrientation="portrait"></activity>
-
-
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KalimaDetailActivity"
+            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|layoutDirection"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NamazerSuraActivity"
+            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|layoutDirection"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WebviewActivity"
+            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|layoutDirection"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+        <!--Include the AdActivity configChanges and theme. -->
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".MosjidLocatorActivity"
+            android:label="@string/title_activity_mosjid_locator" >
+        </activity>
     </application>
 
 </manifest>

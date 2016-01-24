@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/arabic"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="arabic"
+        android:textColor="@color/google_text_disabled" />
+
+    <TextView
+        android:id="@+id/bangla"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="bangla"
+        android:textColor="@color/google_text_disabled" />
+
+    <TextView
+        android:id="@+id/english"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="english"
+        android:textColor="@color/google_text_disabled" />
+
+</LinearLayout><!-- From: file:/F:/Works/RepoProject/al-quran/AlQuran/app/src/main/res/layout/row_name.xml -->

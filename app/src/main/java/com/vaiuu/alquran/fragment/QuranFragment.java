@@ -1,7 +1,6 @@
 package com.vaiuu.alquran.fragment;
 
 import android.annotation.SuppressLint;
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
@@ -24,6 +23,7 @@ import com.vaiuu.alquran.main.R;
 import com.vaiuu.alquran.model.SuraDetailModel;
 import com.vaiuu.alquran.parser.SuraListParser;
 import com.vaiuu.alquran.util.Appconstant;
+import com.vaiuu.alquran.util.CustomProgressDialog;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -34,7 +34,7 @@ public class QuranFragment extends Fragment {
     private static final String ARG_POSITION = "position";
 
     private int position;
-    private ProgressDialog progressDialog;
+    private CustomProgressDialog customProgressDialog;
     private SuraListAdapter suraListAdapter;
     private Context context;
     private ListView sura_listview;
@@ -52,8 +52,9 @@ public class QuranFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         position = getArguments().getInt(ARG_POSITION);
         View rootView = inflater.inflate(R.layout.quran_mainfragment, container, false);
-        progressDialog = new ProgressDialog(getActivity());
+
         context = getActivity();
+        customProgressDialog = new CustomProgressDialog(context, "Loading Quran....", true);
         initUI(rootView);
         return rootView;
     }
@@ -102,9 +103,8 @@ public class QuranFragment extends Fragment {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-            progressDialog.setMessage("Loading  Please Wait ...");
-            progressDialog.show();
+
+            customProgressDialog.show();
         }
 
         @Override
@@ -129,7 +129,7 @@ public class QuranFragment extends Fragment {
         // ALL List POPUP Button setup here
         @SuppressLint("NewApi")
         protected void onPostExecute(String getResult) {
-            progressDialog.dismiss();
+            customProgressDialog.dismiss();
             suraListAdapter = new SuraListAdapter(context);
             sura_listview.setAdapter(suraListAdapter);
             suraListAdapter.setNotifyOnChange(true);
@@ -183,7 +183,6 @@ public class QuranFragment extends Fragment {
                             info2 = info2 .replace( getActivity().getResources().getString(R.string.bismillah_eng), "");
                             detailModel.setArabicText(info);
                             detailModel.setBngText(info2);
-
                             allSuraDetailList.setSuraDetailList(detailModel);
                             detailModel = null;
                         } else {

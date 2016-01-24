@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
+    android:gravity="center"
     android:padding="10dp" >
 
     <TextView
@@ -13,7 +14,7 @@
         android:gravity="center"
         android:padding="5dp"
         android:text="1"
-        android:textColor="@color/google_red" />
+        android:textColor="@color/fontRed" />
 
     <TextView
         android:id="@+id/sura_eng"
@@ -23,7 +24,7 @@
         android:gravity="left"
         android:padding="5dp"
         android:text="Hi"
-        android:textColor="@color/grey" />
+        android:textColor="@color/btBG" />
 
     <TextView
         android:id="@+id/sura_arabic"
@@ -33,6 +34,12 @@
         android:gravity="left"
         android:padding="5dp"
         android:text="Hi"
-        android:textColor="@color/grey" />
+        android:textColor="@color/btBG" />
+
+    <ImageView android:id="@+id/download_ok"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:background="@drawable/trick"
+        android:gravity="center" />
 
 </LinearLayout>

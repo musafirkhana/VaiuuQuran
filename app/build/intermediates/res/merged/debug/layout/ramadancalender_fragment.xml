@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vaiuu.alquran.MapsActivity">
+
+    <LinearLayout
+        android:id="@+id/top_linewr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/app_background"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Date"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/sky" />
+
+        <TextView
+            android:id="@+id/seheri"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:padding="5dp"
+            android:text="Sahri"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/sky" />
+
+        <TextView
+            android:id="@+id/iftar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:padding="5dp"
+            android:gravity="center"
+            android:text="Iftar"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/sky" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_ramdancalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_linewr"
+        android:text="Hello" />
+</RelativeLayout>
+<!-- From: file:/F:/Works/RepoProject/al-quran/AlQuran/app/src/main/res/layout/ramadancalender_fragment.xml -->

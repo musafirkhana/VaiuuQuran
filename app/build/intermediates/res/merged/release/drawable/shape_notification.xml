@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="@android:integer/config_shortAnimTime">
+
+    <item android:state_pressed="true" android:drawable="@drawable/shape_notification_focused"/>
+    <item android:state_focused="true" android:drawable="@drawable/shape_notification_focused"/>
+    <item android:drawable="@drawable/shape_notification_pressed"/>
+
+</selector><!-- From: file:/F:/Works/AndroidStudioWorkspace/AlQuran/AlQuran/AlQuran/app/src/main/res/drawable/shape_notification.xml -->

@@ -7,11 +7,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.vaiuu.alquran.holder.AllSuraList;
 import com.vaiuu.alquran.main.R;
 import com.vaiuu.alquran.model.SuraListModel;
+import com.vaiuu.alquran.util.Appconstant;
+
+import java.io.File;
 
 
 public class SuraListAdapter extends ArrayAdapter<SuraListModel> {
@@ -21,6 +25,8 @@ public class SuraListAdapter extends ArrayAdapter<SuraListModel> {
 	public boolean asyncCheck = false;
 	public String ContentCode;
 	public String mobileNo;
+	File pathName = null;
+
 	public SuraListAdapter(Context context) {
 		super(context, R.layout.row_sura, AllSuraList.getAllSuraList());
 		this.context = context;
@@ -32,6 +38,7 @@ public class SuraListAdapter extends ArrayAdapter<SuraListModel> {
 		TextView sura_eng;
 		TextView sura_arabic;
 		TextView sura_number;
+		ImageView download_ok;
 		
 	}
 
@@ -72,6 +79,7 @@ public class SuraListAdapter extends ArrayAdapter<SuraListModel> {
 			holder.sura_eng=(TextView)v.findViewById(R.id.sura_eng);
 			holder.sura_arabic=(TextView)v.findViewById(R.id.sura_arabic);
 			holder.sura_number=(TextView)v.findViewById(R.id.sura_number);
+			holder.download_ok = (ImageView) v.findViewById(R.id.download_ok);
 			
 			v.setTag(holder);
 		} else {
@@ -81,8 +89,16 @@ public class SuraListAdapter extends ArrayAdapter<SuraListModel> {
 		if (position < AllSuraList.getAllSuraList().size()) {
 			final SuraListModel query = AllSuraList.getAllSuraList().elementAt(
 					position);
-			
 
+			pathName = new File(
+					android.os.Environment.getExternalStorageDirectory()
+							+ File.separator + Appconstant.folderName + ""
+							+ (position+1));
+			if (pathName.exists()) {
+				holder.download_ok.setVisibility(View.VISIBLE);
+			} else {
+				holder.download_ok.setVisibility(View.GONE);
+			}
 			holder.sura_eng.setText(query.getEngArbName());
 			holder.sura_arabic.setText(query.getArabicName());
 			holder.sura_number.setText(""+(position+1));

@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/google_white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_no_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:textColor="@color/blue_title"
+        android:gravity="center"
+        android:text="Your phone doesn&apos;t support compass"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/compass_relative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageViewCompass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/compass_new" />
+
+            <LinearLayout
+                android:id="@+id/lin_ivarrow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/below_text"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/below_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="Please use the compass as an indication of the direction only.
+                    Remember to calibrate your compass"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/F:/Works/AndroidStudioWorkspace/AlQuran/AlQuran/AlQuran/app/src/main/res/layout/qibla_mainfragment.xml -->

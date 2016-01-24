@@ -1,0 +1,15 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <solid
+        android:color="#04232B"
+        />
+    <stroke
+        android:width="2dip"
+        android:color="#FFF" />
+    <padding
+        android:left="5dip"
+        android:right="5dip"
+        android:top="5dip"
+        android:bottom="5dip" />
+</shape><!-- From: file:/F:/Works/AndroidStudioWorkspace/AlQuran/AlQuran/AlQuran/app/src/main/res/drawable/shape_notification_pressed.xml -->
